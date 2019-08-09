@@ -1,0 +1,26 @@
+{
+  "name": "shuttle",
+  "version": "1.0.0",
+  "description": "shuttle application V47",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "dumalk",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "concurrently": "^4.1.1",
+    "express": "^4.17.1",
+    "mongodb": "^3.2.7",
+    "mongoose": "^5.6.3",
+    "react-bootstrap": "^1.0.0-beta.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
